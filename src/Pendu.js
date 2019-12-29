@@ -5,8 +5,8 @@ class Pendu extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            word: 'jean-pierre',
-            limit : 9,
+            word: props.word,
+            limit : props.limit,
             wrotes: [],
             value: '',
             wordTest: '',

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
 import Pendu from './Pendu';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Pendu />
+        <Pendu word="pikachu" limit="5" />
       </div>
     );
   }
